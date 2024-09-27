@@ -15,8 +15,8 @@ parser.add_argument('--dataset', default='sample', help='dataset name: sample')
 opt = parser.parse_args()
 print(opt)
 #TODO change if testing on a portion is needed
-dataset = 'train_sessions_dressipi_less_nodes.csv'
-#dataset = 'train_sessions_dressipi.csv'
+#dataset = 'train_sessions_dressipi_less_nodes.csv'
+dataset = 'train_sessions_dressipi.csv'
 
 print("-- Starting @ %ss" % datetime.datetime.now())
 with open(dataset, "r") as f:

@@ -3,11 +3,11 @@
 ## Usage
 Download the dressipi dataset from https://dressipi.com/downloads/recsys-datasets/
 
-You need to run the file  `datasets/build_dataset.py` first to structure the data.
+Run the file  `datasets/build_dataset.py` first to structure the data.
 
-Then you need to run the file  `datasets/preprocess.py` to preprocess the data.
+Run the file  `datasets/preprocess.py` to preprocess the data.
 
-Then you can run the file `pytorch_code/main.py` to train the model.
+Run the file `pytorch_code/main.py` to train the model.
 
 For example: `cd pytorch_code; python main.py --dataset=sample`
 
